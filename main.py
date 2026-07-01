@@ -7,7 +7,7 @@ import datetime  # Required for the mute/timeout feature
 
 # --- 1. SETUP & CONFIGURATION ---
 load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
+token = os.getenv('ecd')
 
 # Enable intents (Crucial for reading members and message content)
 intents = discord.Intents.default()
